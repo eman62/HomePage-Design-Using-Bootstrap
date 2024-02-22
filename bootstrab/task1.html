@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <style>
+
+        .user-profile {
+            border: 1px solid #ccc;
+            border-radius: 30px;
+            padding: 20px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+       
+        .profile-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .main-content
+        {
+            border: 2px solid gray;
+            margin: 1rem;
+        }
+
+        .additional-section {
+            margin-top: 2rem;
+            border: 2px solid gray;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">profile</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+        <div class="row">
+            <div class="col-lg-2 col-sm-12 col-md-12">
+                <div class="user-profile">
+                    <div class="profile-image">
+                        <img src="Bg.jpg" alt="Profile Image">
+                    </div>
+                    <hr>
+                    <p>📜designer ui</p>
+                    <p>✨london uk</p>
+                    <p>🎨April 1999</p>
+                </div>
+                <div class="user-profile" style="background-color: gray;">
+                    <p>📜designer ui</p>
+                    <p>✨london uk</p>
+                    <p>🎨April 1999</p>
+                </div>
+                <div class="user-profile">
+                    <p>interests</p>
+                    <br>
+                    <span style="background-color: gray;">reading</span>
+                    <span style="background-color: gray;">writing</span>
+                    <span style="background-color: gray;">reading</span>
+                    <span style="background-color: gray;">writing</span>
+                    <span style="background-color: gray;">reading</span>
+                    <span style="background-color: gray;">writing</span>
+                </div>
+                <div class="user-profile" style="background-color: lightgray;">
+                    <p style="text-align: start;">hey</p>
+                    <p>people looking to your profile</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
+                <div class="main-content  p-3 mb-2" style="background-color: lightgray ;border-radius: 6px;">
+                    <label for="myTextInput" style="color: gray;">Enter Text: </label>
+                    <br>
+                    <input type="text" id="myTextInput" name="myTextInput" placeholder="status:feeling blue">
+                    <br>
+                    <br>
+                    <p style="margin: 1px;"><a href="https://www.google.com" class="btn bg-light">post</a></p>
+                </div>
+                <div class="main-content  p-3 mb-2">
+                    <div style="display: flex;">
+                        <img src="lodo.jpg" width="50px" height="50px" style="margin-right: 20px;">
+                        <p>john doe</p>         
+                    </div>
+                    <hr>
+                    <p> my name is eman abdelshafi i grduated from faculty of computer 
+                        and artificial intellegence helwan university     
+                    </p>
+                    <div style="display: flex;">
+                        <img src="lodo.jpg" width="400px" height="200px" style="margin-right: 20px;">
+                        <img src="shalaby.jpeg" width="400px" height="200px" style="margin-right: 20px;">
+                    </div>
+                    <br>
+                    <div style="display: flex;">
+                        <p style="margin: 1px;"><a href="https://www.google.com" class="btn bg-light">👍like</a></p>
+                        <p style="margin: 1px;"><a href="https://www.google.com" class="btn bg-light">📃comment</a></p>
+                    </div>
+                </div>
+                <div class="main-content  p-3 mb-2">
+                    <div style="display: flex;">
+                        <img src="lodo.jpg" width="50px" height="50px" style="margin-right: 20px;">
+                        <p>john doe</p>
+                    </div>
+                    <hr>
+                    <p> my name is eman abdelshafi i grduated from faculty of computer
+                        and artificial intellegence helwan university
+                    </p>
+                    <div style="display: flex;">
+                        <p style="margin: 1px;"><a href="https://www.google.com" class="btn bg-light">👍like</a></p>
+                        <p style="margin: 1px;"><a href="https://www.google.com" class="btn bg-light">📃comment</a></p>
+                    </div>
+                </div>
+                <div class="main-content  p-3 mb-2">
+                    <div style="display: flex;">
+                        <img src="lodo.jpg" width="50px" height="50px" style="margin-right: 20px;">
+                        <p>john doe</p>
+                    </div>
+                    <hr>
+                   
+                        <img src="lodo.jpg" width="500px" height="200px" style="margin-right: 20px;">
+                  
+                    <br>
+                    <p> my name is eman abdelshafi i grduated from faculty of computer
+                        and artificial intellegence helwan university
+                    </p>
+                    <br>
+                    <div style="display: flex;">
+                        <p style="margin: 1px;"><a href="https://www.google.com" class="btn bg-light">👍like</a></p>
+                        <p style="margin: 1px;"><a href="https://www.google.com" class="btn bg-light">📃comment</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-12" style="text-align: center;">
+                <div class="additional-section bg-light border p-3 mb-2">
+                    <p>upcoming events:</p>
+                    <img src="home.png" width="100px" height="50px">
+                    <p>holiday</p>
+                    <p>friday 15:00</p>
+                    <p style="margin: 1px;"><a href="https://www.google.com" class="btn btn-primary">info</a></p>
+                </div>
+                <div class="additional-section bg-light border p-3 mb-2">
+                    <p>upcoming events:</p>
+                    <img src="home.png" width="100px" height="50px">
+                    <p>holiday</p>
+                    <div style="display: flex;">
+                        <p style="margin: 1px;"><a href="https://www.google.com" class="btn btn-primary">👍like</a></p>
+                        <p style="margin: 1px;"><a href="https://www.google.com" class="btn btn-primary">📃comment</a></p>
+                    </div>
+                </div>
+                <div class="additional-section bg-light border p-2 mb-2">ADS</div>
+                <div class="additional-section bg-light border p-2 mb-2">🐞</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
